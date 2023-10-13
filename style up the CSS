@@ -1,0 +1,42 @@
+# Ren0426.github.io
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>My web page</title>
+</head>
+
+<body class="body-class">
+      <header class="header-class">
+        <h1 class="title-class">Ren Japanese Restaurant</h1>
+        <nav class="nav-class">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <h2 class="section-title-class">Our style</h2>
+        <p class="text-class">We are serving the best Japanese food in the world!!!</p>
+        <img src="https://www.tastingtable.com/img/gallery/20-japanese-dishes-you-need-to-try-at-least-once/intro-1664219638.webp" alt="Japanese food" class="image-class">
+        
+        <h3>Reservations</h3>
+        <form class="form-class">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Date">
+            <input type="text" placeholder="Time">
+            <input type="text" placeholder="How many people">
+            <button class="button-class">Submit</button>
+        </form>
+    </main>
+    <footer class="footer-class">
+        <p>&copy; 2023 Ren Japanese restaurant</p>
+    </footer>
+</body>
+</html>
